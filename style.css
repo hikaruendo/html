@@ -1,0 +1,42 @@
+p{
+	background-color: red;
+	color: white;
+}
+
+
+
+.para p{
+	color:blue;
+}
+.para {
+	color:red;
+	width: 600px;
+	position: absolute;
+	left: 10%;
+	top:30%;
+}	
+
+.image{
+	background-color: red;
+	width: 100px;
+	height:100px;
+	position: absolute;
+	left: 50%;
+	top:30%;
+}
+
+#endo{
+	background-color: blue;
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	padding: 100px;
+
+}
+
+
+#endo input{
+	position: absolute;
+	left: 40%;
+
+}
