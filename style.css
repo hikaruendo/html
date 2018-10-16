@@ -6,7 +6,7 @@ p{
 
 
 .para p{
-	color:blue;
+	color:green;
 }
 .para {
 	color:red;
@@ -36,7 +36,14 @@ p{
 
 
 #endo input{
-	position: absolute;
+	position: absolute;  
 	left: 40%;
 
 }
+
+#endo input p{
+	position: absolute;
+	right: 90%;
+	color:green
+
+} 
