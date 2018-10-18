@@ -1,17 +1,13 @@
-from django.shortcuts import render,redirect
+from django.shortcuts import render, redirect
 from . models import Todo
 from . forms import TodoForm
 from django.views.decorators.http import require_POST
 
 # Create your views here.
-
 def index(request):
     todo_list=Todo.objects.order_by('id')
-
     form=TodoForm()
-
-    context={'todo_list':todo_list, 'form':form}
-    
+    context={'todo_list':todo_list,'form':form}
     return render(request, 'todo/index.html', context)
 
 @require_POST
